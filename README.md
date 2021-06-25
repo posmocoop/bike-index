@@ -1,4 +1,4 @@
-# VelObserver: Bike-Index
+# VelObserver-Index
 
 Ein Bike-Index für die Strassen von Zürich und weiterer Schweizer Städte
 
