@@ -15,7 +15,11 @@ https://surveytools.ch/velobserver/
 
 
 ### Siehe auch
-https://github.com/posmocoop/spatial_future/blob/master/vobs.md   
+
+#### Projektorganisation
+https://github.com/posmocoop/spatial_future/blob/master/vobs.md#v01-velobserverch    
+
+#### Logos, Schriften etc.
 https://github.com/posmocoop/velobserver   
 
 
