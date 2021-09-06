@@ -1,8 +1,8 @@
 # VelObserver-Index
 
 
-Ein Bike-Index für die Strassen von Zürich und weiterer Schweizer Städte
-Jetzt auch unterstützt vom Prototype Fund!
+Ein Bike-Index für die Strassen von Zürich und weiterer Schweizer Städte       
+Jetzt auch unterstützt vom [Prototype Fund](https://prototypefund.opendata.ch/project/velobserver/)!
 
 ## Vorstudie zum Bike-Index, 17.5.2021
 Die Plattform «VelObserver» soll eine Möglichkeit bieten, die Qualität der Velo-Infrastruktur plausibel zu bewerten. Einerseits werden wir alle geplanten Routen der Stadt erfassen und festhalten, ob und wie gut die Stadt diese Pläne umsetzt. Andererseits sollen auch die Velofahrenden die Möglichkeit erhalten, festzuhalten, wie velofreundlich unsere Strassen sind.           
