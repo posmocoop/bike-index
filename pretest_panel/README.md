@@ -126,10 +126,14 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
 ## Database Structure
 user_id, key, value             
           
-1. user_id, transport_mode [options: fussgaenger, velo, oev, miv], 0.00-1.00 (more than one, max. 4 options)
-2. user_id, bike_type [options:citybike, rennvelo, e-bike25, e-bike45, mountainbike, e-mountainbike, bikesharing], 1 or 0 (more than one option)
-3. user_id, bike_usage [options: arbeit,ausbildung, alltag, freizeit, sport, touren], 1 or 0 (more than one option)
-4. user_id, bike_frequency [options: taeglich, regelmaessig, selten, nie], 1 or 0 (only one option)
+1. user_id, transport_mode [options: fussgaenger|velo|oev|miv], 0.00-1.00     
+(more than one, max. 4 options)   
+2. user_id, bike_type [options: citybike|rennvelo|e-bike25|e-bike45|mountainbike|e-mountainbike|bikesharing], 1 or 0    
+(more than one option)     
+3. user_id, bike_usage [options: arbeit|ausbildung|alltag|freizeit|sport|touren], 1 or 0    
+(more than one option)   
+4. user_id, bike_frequency [options: taeglich|regelmaessig|selten|nie], 1 or 0    
+(only one option)   
 
 
 
