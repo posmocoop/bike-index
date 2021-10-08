@@ -112,6 +112,9 @@ Damit du später die Velorouten bewerten kannst, benötigst du ein Konto. Die bi
 - Passwort 
 
 
+## Other Possibilities
+When presenting the first variant to Prototype Fund, David meant, he would like to give time by transport mode. E.g. 30min by Tram. We could then take the average speed to come to km. 
+
 
 ## Design 1
 
