@@ -124,6 +124,8 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
           
 ## Database Structure: VelObserver Personas
 user_id, topic, key, value, created_at, updated_at 
+For created_at, updated_at, we probably use UNIX timestamps.
+
 
 | user_id  | topic  | key  | value  | created_at | updated_at |
 |---|---|---|---|---|---|
@@ -145,7 +147,9 @@ user_id, topic, key, value, created_at, updated_at
 | XXX  | bike_usage | sport | 0 | 2020-09-20  | | 
 | XXX  | bike_usage | touren | 0 | 2020-09-20 | | 
 | XXX  | bike_frequency | selten | 1 | 2020-09-20 | |       
-| XXX  | bike_frequency | taeglich | 1 | 2020-09-20  | 2021-10-09 |  Example after an update, values and keys can switch from 0 to 1 and vice versa.
+| XXX  | bike_frequency | taeglich | 1 | 2020-09-20  | 2021-10-09 |  
+
+Last row: an example after an update, values and keys can switch from 0 to 1 and vice versa. That is why it is meaninful to store zero values as well. We might also extend the DB in the future. 
 
 
 
@@ -163,6 +167,6 @@ user_id, topic, key, value, created_at, updated_at
 (only one option)    
     
 
-Q: Should people be able to change this? Then I would add a timestamp.
+
 
 
