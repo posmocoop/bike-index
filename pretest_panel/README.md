@@ -122,7 +122,7 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
 ## Design 2
          
           
-## Database Structure
+## Database Structure: VelObserver Personas
 user_id, topic, key, value 
 
 | user_id  | topic  | key  | value  | 
@@ -152,6 +152,6 @@ user_id, topic, key, value
 (only one option)    
     
 
-
+Q: Should people be able to change this? Then I would add a timestamp.
 
 
