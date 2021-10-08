@@ -127,17 +127,25 @@ user_id, topic, key, value, created_at, updated_at
 
 | user_id  | topic  | key  | value  | created_at | updated_at |
 |---|---|---|---|---|---|
-| XXX  | transport_mode | fussgaenger | 0.40  | | |
-| XXX  | transport_mode | velo | 0.55  | | |
-| XXX  | transport_mode | oev | 0.05  | | |
-| XXX  | transport_mode | miv | 0.00  | | |  
-| XXX  | bike_type | citybike | 1 |  | |
-| XXX  | bike_type | bikesharing | 1 |   | |
-| XXX  | bike_usage | arbeit | 1 |   | |  
-| XXX  | bike_usage | alltag | 1 |  | |  
-| XXX  | bike_usage | freizeit | 1 |  | | 
+| XXX  | transport_mode | fussgaenger | 0.40  | 2020-09-20  | |
+| XXX  | transport_mode | velo | 0.55  | 2020-09-20  | |
+| XXX  | transport_mode | oev | 0.05  | 2020-09-20 | |
+| XXX  | transport_mode | miv | 0.00  | 2020-09-20  | |  
+| XXX  | bike_type | citybike | 1 | 2020-09-20 | |
+| XXX  | bike_type | rennvelo | 0 | 2020-09-20 | |
+| XXX  | bike_type | e-bike25km | 0 | 2020-09-20 | |
+| XXX  | bike_type | e-bike45km | 0 | 2020-09-20  | |
+| XXX  | bike_type | mountainbike | 0 | 2020-09-20 | |
+| XXX  | bike_type | e-mountainbike | 0 | 2020-09-20  | |
+| XXX  | bike_type | bikesharing | 1 | 2020-09-20 | |
+| XXX  | bike_usage | arbeit | 1 | 2020-09-20 | |  
+| XXX  | bike_usage | ausbildung | 0 | 2020-09-20 | |  
+| XXX  | bike_usage | alltag | 1 | 2020-09-20 | |  
+| XXX  | bike_usage | freizeit | 1 | 2020-09-20 | |  
+| XXX  | bike_usage | sport | 0 | 2020-09-20  | | 
+| XXX  | bike_usage | touren | 0 | 2020-09-20 | | 
 | XXX  | bike_frequency | selten | 1 | 2020-09-20 | |       
-| XXX  | bike_frequency | taeglich | 1 | 2020-09-20  | 2021-10-09 |  
+| XXX  | bike_frequency | taeglich | 1 | 2020-09-20  | 2021-10-09 |  Example after an update, values and keys can switch from 0 to 1 and vice versa.
 
 
 
@@ -145,7 +153,7 @@ user_id, topic, key, value, created_at, updated_at
 1. user_id, transport_mode [options: fussgaenger|velo|oev|miv], 0.00-1.00     
 (more than one, max. 4 options)     
      
-2. user_id, bike_type [options: citybike|rennvelo|e-bike25|e-bike45|mountainbike|e-mountainbike|bikesharing], 1 or 0    
+2. user_id, bike_type [options: citybike|rennvelo|e-bike25km|e-bike45km|mountainbike|e-mountainbike|bikesharing], 1 or 0    
 (more than one option)      
       
 3. user_id, bike_usage [options: arbeit|ausbildung|alltag|freizeit|sport|touren], 1 or 0    
