@@ -19,20 +19,20 @@ Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Ve
 - MIV: Auto, Motorrad %
 
 ### Dein Velo?
-- Citybike
-- Rennvelo
-- E-Bike, 25km/h
-- Schnelles E-Bike
-- 45km/h, Mountainbike
-- E-Mountainbike
-- Bikesharing (Publibike usw.)
+- [ ] Citybike
+- [ ] Rennvelo
+- [ ] E-Bike, 25km/h
+- [ ] Schnelles E-Bike
+- [ ] 45km/h, Mountainbike
+- [ ] E-Mountainbike
+- [ ] Bikesharing (Publibike usw.)
 
 ### Wann fährst Du?
-- Arbeit, Schule, Universität
-- Alltag
-- Freizeit
-- Sport
-- Touren
+- [ ] Arbeit, Schule, Universität
+- [ ] Alltag
+- [ ] Freizeit
+- [ ] Sport
+- [ ] Touren
 
 ### Wie oft?
 - Täglich
@@ -73,22 +73,22 @@ Dazu benötigen wir E-Mail und Passwort.
 
 
 ### Wie bist Du unterwegs?
-- Zu Fuss
-- ÖV: Tram, Bus, Bahn  
+- [ ] Zu Fuss
+- [ ] ÖV: Tram, Bus, Bahn  
 -------
-- Citybike
-- Rennvelo
-- E-Bike, 25km/h
-- Schnelles E-Bike
-- 45km/h, Mountainbike
-- E-Mountainbike
-- Bikesharing (Publibike usw.)
+- [ ] Citybike
+- [ ] Rennvelo
+- [ ] E-Bike, 25km/h
+- [ ] Schnelles E-Bike
+- [ ] 45km/h, Mountainbike
+- [ ] E-Mountainbike
+- [ ] Bikesharing (Publibike usw.)
 -------
-- Eigenes Auto
-- Carsharing
-- Motorrad 
+- [ ] Eigenes Auto
+- [ ] Carsharing
+- [ ] Motorrad 
 --------
-- Skateboard, Scooter
+- [ ] Skateboard, Scooter
 
 ### Wie häufig?
 (Auswahl von oben wird in Reihenfolge gebracht)
