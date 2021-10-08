@@ -127,7 +127,7 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
 user_id, key, value             
           
 ## Database Structure
-user_id, key, value             
+user_id, key_name, key, value             
           
 1. user_id, transport_mode [options: fussgaenger|velo|oev|miv], 0.00-1.00     
 (more than one, max. 4 options)   
