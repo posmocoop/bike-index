@@ -123,20 +123,23 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
          
           
 ## Database Structure: VelObserver Personas
-user_id, topic, key, value 
+user_id, topic, key, value, created_at, updated_at 
 
-| user_id  | topic  | key  | value  | 
-|---|---|---|---|
-| XXX  | transport_mode | fussgaenger | 0.40  | 
-| XXX  | transport_mode | velo | 0.55  | 
-| XXX  | transport_mode | oev | 0.05  | 
-| XXX  | transport_mode | miv | 0.00  |   
-| XXX  | bike_type | citybike | 1 |  
-| XXX  | bike_type | bikesharing | 1 |   
-| XXX  | bike_usage | arbeit | 1 |     
-| XXX  | bike_usage | alltag | 1 |    
-| XXX  | bike_usage | freizeit | 1 |   
-| XXX  | bike_frequency | taeglich | 1 |         
+| user_id  | topic  | key  | value  | created_at | updated_at |
+|---|---|---|---|---|---|
+| XXX  | transport_mode | fussgaenger | 0.40  | | |
+| XXX  | transport_mode | velo | 0.55  | | |
+| XXX  | transport_mode | oev | 0.05  | | |
+| XXX  | transport_mode | miv | 0.00  | | |  
+| XXX  | bike_type | citybike | 1 |  | |
+| XXX  | bike_type | bikesharing | 1 |   | |
+| XXX  | bike_usage | arbeit | 1 |   | |  
+| XXX  | bike_usage | alltag | 1 |  | |  
+| XXX  | bike_usage | freizeit | 1 |  | | 
+| XXX  | bike_frequency | selten | 1 | 2020-09-20 | |       
+| XXX  | bike_frequency | taeglich | 1 | 2020-09-20  | 2021-10-09 |  
+
+
 
 ### Topics          
 1. user_id, transport_mode [options: fussgaenger|velo|oev|miv], 0.00-1.00     
