@@ -120,8 +120,7 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
 ## Design 1
 
 ## Design 2
-
-          
+         
           
 ## Database Structure
 user_id, key_name, key, value 
