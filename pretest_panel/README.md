@@ -123,7 +123,7 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
          
           
 ## Database Structure: VelObserver Personas
-user_id, topic, key, value, created_at, updated_at 
+**user_id, topic, key, value, created_at, updated_at**      
 For created_at, updated_at, we probably use UNIX timestamps.
 
 
