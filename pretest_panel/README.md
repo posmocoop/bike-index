@@ -149,7 +149,8 @@ For created_at, updated_at, we probably use UNIX timestamps.
 | XXX  | bike_frequency | selten | 1 | 2020-09-20 | |       
 | XXX  | bike_frequency | taeglich | 1 | 2020-09-20  | 2021-10-09 |  
 
-Last row: an example after an update, values and keys can switch from 0 to 1 and vice versa. That is why it is meaninful to store zero values as well. We might also extend the DB in the future. 
+Last row: an example after an update, values and keys can switch from 0 to 1 and vice versa. That is why it is meaninful to store zero values as well for the topics with multiple options (only bike_frequency wouldn't need an additional value, as it will always be 1). 
+We might also modify or extend the DB in the future, so it is good to use all options. 
 
 
 
