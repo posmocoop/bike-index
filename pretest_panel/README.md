@@ -132,14 +132,15 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
 
 ### Wochenende, Feiertage, Ferien
 
-| Verkehrsmittel  | Zeit (min) | km/h  | km | % |
+| Verkehrsmittel  | Zeit (min) | km/h  | km | 
 |---|---|---|---|
-| [x] Zu Fuss v | [ 15 ] | [ 4 ] | 1 |
+| [x] Zu Fuss | [ 15 ] | [ 4 ] | 1 |
 | [x] Velo v | [ 20 ] | [ 15 ] | 5 | 
 | [x] ÖV v | [ 20 ] | [ 15 ] | 5 |
 | [ ] MIV v | [    ] | [  ] |  |
 | [ ] Weitere v | [  ] | [  ] |  |
-| Total | 55 | ?  | 11 |
+| Total | 55  | ? | 11 |
+
 
 Nur das Verkehrsmittel und Zeit müssen angegeben werden.         
 Kilometer pro Stunde (default: Durchschnittswert) können justiert werden.  
