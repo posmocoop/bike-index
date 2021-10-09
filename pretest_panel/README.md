@@ -13,10 +13,10 @@ Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Ve
      
 
 ### Wie bist du unterwegs?
-- Zu Fuss %
-- Velo %
-- ÖV: Tram, Bus, Bahn %
-- MIV: Auto, Motorrad %
+- [ ] Zu Fuss %
+- [ ] Velo %
+- [ ] ÖV: Tram, Bus, Bahn %
+- [ ] MIV: Auto, Motorrad %
 
 ### Dein Velo?
 - [ ] Citybike
