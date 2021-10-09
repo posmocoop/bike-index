@@ -12,7 +12,7 @@ Wir stellen Fragen zur:
 Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Velorouten ab. Dazu benötigen wir E-Mail und Passwort.    
      
 
-### Wie bist Du unterwegs?
+### Wie bist du unterwegs?
 - Zu Fuss %
 - Velo %
 - ÖV: Tram, Bus, Bahn %
@@ -116,6 +116,12 @@ Damit du später die Velorouten bewerten kannst, benötigst du ein Konto. Die bi
 ## Other Possibilities
 When presenting the first variant to Prototype Fund, David meant, he would like to give time by transport mode. E.g. 30min by Tram. We could then take the average speed to come to km. 
 
+
+## Variante 3 (nur "Wie bist du unterwegs?")
+
+| Verkehrsmittel  | Zeit (min) | ⌀ km/h  | km | 
+|---|---|---|---|
+| -[x] Zu Fuss | [15] | 4 | 1 |
 
 ## Design 1
 
