@@ -114,12 +114,13 @@ Damit du später die Velorouten bewerten kannst, benötigst du ein Konto. Die bi
 
 
 ## Other Possibilities
-When presenting the first variant to Prototype Fund, David meant, he would like to give time by transport mode. E.g. 30min by Tram. We could then take the average speed to come to km. 
+When presenting the first variant to Prototype Fund, David from Businessresponsibility meant, he would like to give time by transport mode. E.g. 30min by Tram. We could then take the average speed to come to km. 
 
 
-## Variante 3 (nur "Wie bist du unterwegs?")
+### Variante 3 (nur "Wie bist du unterwegs?")
 
-### Unter der Woche
+#### Unter der Woche 
+Pro Tag
 
 | Verkehrsmittel  | Zeit (min) | km/h  | km | 
 |---|---|---|---|
@@ -130,7 +131,8 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
 | [ ] Weitere v | [  ] | [  ] |  |
 | Total | 55  | ? | 11 |
 
-### Wochenende, Feiertage, Ferien
+#### Wochenende, Feiertage, Ferien
+Pro Tag
 
 | Verkehrsmittel  | Zeit (min) | km/h  | km | 
 |---|---|---|---|
@@ -145,9 +147,10 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
 Nur das Verkehrsmittel und Zeit müssen angegeben werden.         
 Kilometer pro Stunde (default: Durchschnittswert) können justiert werden.  
 
-Evtl. Für jede Überkategorie, kann spezifisch (Velo > Citybike, Rennvelo usw.) ausgewählt werden. 
+Evtl. Für jede Überkategorie, kann spezifisch via Dropdown (Velo > Citybike, Rennvelo usw.) ausgewählt werden. 
 Wenn ja, dann sollte man aber Mehrfachnennungen pro Kategorie zulassen.
- 
+
+Sind die km/h anpassbar, dann müsste entweder die DB erweitert werden (value2), oder es werden 2 Einträge pro Verkehrsmittel in der Datenbank abgelegt. 
 
 
 ## Design 1
