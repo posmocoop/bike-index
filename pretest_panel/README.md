@@ -167,10 +167,10 @@ For created_at, updated_at, we probably use UNIX timestamps.
 
 | user_id  | topic  | key  | value  | created_at | updated_at |
 |---|---|---|---|---|---|
-| XXX  | transport_mode | fussgaenger | 0.40  | 2020-09-20  | |
-| XXX  | transport_mode | velo | 0.25  | 2020-09-20  | |
-| XXX  | transport_mode | oev | 0.35  | 2020-09-20 | |
-| XXX  | transport_mode | miv | 0.00  | 2020-09-20  | |  
+| XXX  | transport_mode | fussgaenger_pct | 0.40  | 2020-09-20  | |
+| XXX  | transport_mode | velo_pct | 0.25  | 2020-09-20  | |
+| XXX  | transport_mode | oev_pct | 0.35  | 2020-09-20 | |
+| XXX  | transport_mode | miv_pct | 0.00  | 2020-09-20  | |  
 | XXX  | bike_type | citybike | 1 | 2020-09-20 | |
 | XXX  | bike_type | rennvelo | 0 | 2020-09-20 | |
 | XXX  | bike_type | e-bike25km | 0 | 2020-09-20 | |
@@ -185,10 +185,10 @@ For created_at, updated_at, we probably use UNIX timestamps.
 | XXX  | bike_usage | sport | 0 | 2020-09-20  | | 
 | XXX  | bike_usage | touren | 0 | 2020-09-20 | | 
 | XXX  | bike_frequency | selten | 1 | 2020-09-20 | |  
-| XXX  | transport_mode | fussgaenger | 0.40  | 2020-09-20  | 2021-10-09|
-| XXX  | transport_mode | velo | 0.55  | 2020-09-20  | 2021-10-09 |
-| XXX  | transport_mode | oev | 0.05  | 2020-09-20 | 2021-10-09 |
-| XXX  | transport_mode | miv | 0.00  | 2020-09-20  | 2021-10-09 | 
+| XXX  | transport_mode | fussgaenger_pct | 0.40  | 2020-09-20  | 2021-10-09|
+| XXX  | transport_mode | velo_pct | 0.55  | 2020-09-20  | 2021-10-09 |
+| XXX  | transport_mode | oev_pct | 0.05  | 2020-09-20 | 2021-10-09 |
+| XXX  | transport_mode | miv_pct | 0.00  | 2020-09-20  | 2021-10-09 | 
 | XXX  | bike_type | citybike | 0 | 2020-09-20 | 2021-10-09 |
 | XXX  | bike_type | rennvelo | 0 | 2020-09-20 | 2021-10-09 |
 | XXX  | bike_type | e-bike25km | 0 | 2020-09-20 | 2021-10-09 |
