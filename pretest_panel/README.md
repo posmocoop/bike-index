@@ -114,7 +114,8 @@ Damit du später die Velorouten bewerten kannst, benötigst du ein Konto. Die bi
 
 
 ## Other Possibilities
-When presenting the first variant to Prototype Fund, David from Businessresponsibility meant, he would like to give time by transport mode. E.g. 30min by Tram. We could then take the average speed to come to km. 
+When presenting the first variant to Prototype Fund, David from Businessresponsibility meant, he would like to give a certain time by transport mode. E.g. 30min by Tram. We could then take the average speed to come to km.           
+This works less good with broad categories (Velo), so a further differentiation would be needed (e.g. Citybike, E-Bike 25km/h, E-Bike 45km/h etc.).
 
 
 ### Variante 3 (nur "Wie bist du unterwegs?")
