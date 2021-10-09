@@ -119,9 +119,35 @@ When presenting the first variant to Prototype Fund, David meant, he would like 
 
 ## Variante 3 (nur "Wie bist du unterwegs?")
 
-| Verkehrsmittel  | Zeit (min) | ⌀ km/h  | km | 
+### Unter der Woche
+
+| Verkehrsmittel  | Zeit (min) | km/h  | km | 
 |---|---|---|---|
-| -[x] Zu Fuss | [15] | 4 | 1 |
+| [x] Zu Fuss | [ 15 ] | [ 4 ] | 1 |
+| [x] Velo v | [ 20 ] | [ 15 ] | 5 | 
+| [x] ÖV v | [ 20 ] | [ 15 ] | 5 |
+| [ ] MIV v | [    ] | [  ] |  |
+| [ ] Weitere v | [  ] | [  ] |  |
+| Total | 55  | ? | 11 |
+
+### Wochenende, Feiertage, Ferien
+
+| Verkehrsmittel  | Zeit (min) | km/h  | km | % |
+|---|---|---|---|
+| [x] Zu Fuss v | [ 15 ] | [ 4 ] | 1 |
+| [x] Velo v | [ 20 ] | [ 15 ] | 5 | 
+| [x] ÖV v | [ 20 ] | [ 15 ] | 5 |
+| [ ] MIV v | [    ] | [  ] |  |
+| [ ] Weitere v | [  ] | [  ] |  |
+| Total | 55 | ?  | 11 |
+
+Nur das Verkehrsmittel und Zeit müssen angegeben werden.         
+Kilometer pro Stunde (default: Durchschnittswert) können justiert werden.  
+
+Evtl. Für jede Überkategorie, kann spezifisch (Velo > Citybike, Rennvelo usw.) ausgewählt werden. 
+Wenn ja, dann sollte man aber Mehrfachnennungen pro Kategorie zulassen.
+ 
+
 
 ## Design 1
 
