@@ -1,5 +1,8 @@
 # Pretest Panel
 
+Die Idee des Pretest Panel ist es, im Voraus Menschen für die Bewertung der Velorouten zu rekrutieren. Gleichzeitig sehen wir so auch, wie "biased" unsere Auswahl von Bewerter:innen sind bzw. sein werden. So können wir aktiv gegensteuern.
+
+
 ## Variante 1
 
 ### Pretest Panel für die Bewertung der Velorouten
