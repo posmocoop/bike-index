@@ -158,7 +158,7 @@ Sind die km/h anpassbar, dann müsste entweder die DB erweitert werden (value2),
 ## Design 2
 <table>
 <tr>
-<td>
+<td align="top" border="0">
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_1.png" width="150"/>
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_2.png" width="150"/>
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_3.png" width="150"/>
