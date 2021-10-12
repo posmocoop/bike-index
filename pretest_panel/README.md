@@ -156,12 +156,18 @@ Sind die km/h anpassbar, dann müsste entweder die DB erweitert werden (value2),
 ## Design 1
 
 ## Design 2
+<table>
+<tr>
+<td>
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_1.png" width="150"/>
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_2.png" width="150"/>
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_3.png" width="150"/>
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_4.png" width="150"/>
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_5.png" width="150"/>
-<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_6.png" width="150"/>         
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_6.png" width="150"/>  
+</td>
+</tr> 
+</table>      
           
 ## Database Structure: VelObserver Personas
 ### Personas
