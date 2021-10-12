@@ -153,11 +153,15 @@ Wenn ja, dann sollte man aber Mehrfachnennungen pro Kategorie zulassen.
 
 Sind die km/h anpassbar, dann müsste entweder die DB erweitert werden (value2), oder es werden 2 Einträge pro Verkehrsmittel in der Datenbank abgelegt. 
 
-
 ## Design 1
 
 ## Design 2
-         
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_1.png" width="150"/>
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_2.png" width="150"/>
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_3.png" width="150"/>
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_4.png" width="150"/>
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_5.png" width="150"/>
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_6.png" width="150"/>         
           
 ## Database Structure: VelObserver Personas
 ### Personas
