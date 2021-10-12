@@ -12,27 +12,28 @@ Wir stellen Fragen zur:
 Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Velorouten ab. Dazu benötigen wir E-Mail und Passwort.    
      
 
-### Wie bist Du unterwegs?
-- Zu Fuss %
-- Velo %
-- ÖV: Tram, Bus, Bahn %
-- MIV: Auto, Motorrad %
+### Wie bist du unterwegs?
+- [ ] Zu Fuss %
+- [ ] Velo %
+- [ ] ÖV: Tram, Bus, Bahn %
+- [ ] MIV: Auto, Motorrad %
 
 ### Dein Velo?
-- Citybike
-- Rennvelo
-- E-Bike, 25km/h
-- Schnelles E-Bike
-- 45km/h, Mountainbike
-- E-Mountainbike
-- Bikesharing (Publibike usw.)
+- [ ] Citybike
+- [ ] Rennvelo
+- [ ] E-Bike, 25km/h
+- [ ] Schnelles E-Bike, 45km/h
+- [ ] Mountainbike
+- [ ] E-Mountainbike
+- [ ] Bikesharing (Publibike usw.)
 
 ### Wann fährst Du?
-- Arbeit, Schule, Universität
-- Alltag
-- Freizeit
-- Sport
-- Touren
+- [ ] Arbeit
+- [ ] Ausbildung (Schule, Universität)
+- [ ] Alltag
+- [ ] Freizeit
+- [ ] Sport
+- [ ] Touren
 
 ### Wie oft?
 - Täglich
@@ -73,22 +74,22 @@ Dazu benötigen wir E-Mail und Passwort.
 
 
 ### Wie bist Du unterwegs?
-- Zu Fuss
-- ÖV: Tram, Bus, Bahn  
+- [ ] Zu Fuss
+- [ ] ÖV: Tram, Bus, Bahn  
 -------
-- Citybike
-- Rennvelo
-- E-Bike, 25km/h
-- Schnelles E-Bike
-- 45km/h, Mountainbike
-- E-Mountainbike
-- Bikesharing (Publibike usw.)
+- [ ] Citybike
+- [ ] Rennvelo
+- [ ] E-Bike, 25km/h
+- [ ] Schnelles E-Bike
+- [ ] 45km/h, Mountainbike
+- [ ] E-Mountainbike
+- [ ] Bikesharing (Publibike usw.)
 -------
-- Eigenes Auto
-- Carsharing
-- Motorrad 
+- [ ] Eigenes Auto
+- [ ] Carsharing
+- [ ] Motorrad 
 --------
-- Skateboard, Scooter
+- [ ] Skateboard, Scooter
 
 ### Wie häufig?
 (Auswahl von oben wird in Reihenfolge gebracht)
@@ -112,16 +113,115 @@ Damit du später die Velorouten bewerten kannst, benötigst du ein Konto. Die bi
 - Passwort 
 
 
+## Other Possibilities
+When presenting the first variant to Prototype Fund, David from Businessresponsibility meant, he would like to give a certain time by transport mode. E.g. 30min by Tram. We could then take the average speed to come to km.           
+This works less good with broad categories (Velo), so a further differentiation would be needed (e.g. Citybike, E-Bike 25km/h, E-Bike 45km/h etc.).
+
+
+### Variante 3 (nur "Wie bist du unterwegs?")
+
+#### Unter der Woche 
+Pro Tag
+
+| Verkehrsmittel  | Zeit (min) | km/h  | km | 
+|---|---|---|---|
+| [x] Zu Fuss | [ 15 ] | [ 4 ] | 1 |
+| [x] Velo v | [ 20 ] | [ 15 ] | 5 | 
+| [x] ÖV v | [ 20 ] | [ 15 ] | 5 |
+| [ ] MIV v | [    ] | [  ] |  |
+| [ ] Weitere v | [  ] | [  ] |  |
+| Total | 55  | ? | 11 |
+
+#### Wochenende, Feiertage, Ferien
+Pro Tag
+
+| Verkehrsmittel  | Zeit (min) | km/h  | km | 
+|---|---|---|---|
+| [x] Zu Fuss | [ 15 ] | [ 4 ] | 1 |
+| [x] Velo v | [ 20 ] | [ 15 ] | 5 | 
+| [x] ÖV v | [ 20 ] | [ 15 ] | 5 |
+| [ ] MIV v | [    ] | [  ] |  |
+| [ ] Weitere v | [  ] | [  ] |  |
+| Total | 55  | ? | 11 |
+
+
+Nur das Verkehrsmittel und Zeit müssen angegeben werden.         
+Kilometer pro Stunde (default: Durchschnittswert) können justiert werden.  
+
+Evtl. Für jede Überkategorie, kann spezifisch via Dropdown (Velo > Citybike, Rennvelo usw.) ausgewählt werden. 
+Wenn ja, dann sollte man aber Mehrfachnennungen pro Kategorie zulassen.
+
+Sind die km/h anpassbar, dann müsste entweder die DB erweitert werden (value2), oder es werden 2 Einträge pro Verkehrsmittel in der Datenbank abgelegt. 
+
 
 ## Design 1
 
 ## Design 2
+         
+          
+## Database Structure: VelObserver Personas
+### Personas
+**user_id, topic, key, value, created_at, updated_at**      
+For created_at, updated_at, we probably use UNIX timestamps.
+
+
+| user_id  | topic  | key  | value  | created_at | updated_at |
+|---|---|---|---|---|---|
+| XXX  | transport_mode | fussgaenger_pct | 0.40  | 2020-09-20  | |
+| XXX  | transport_mode | velo_pct | 0.25  | 2020-09-20  | |
+| XXX  | transport_mode | oev_pct | 0.35  | 2020-09-20 | |
+| XXX  | transport_mode | miv_pct | 0.00  | 2020-09-20  | |  
+| XXX  | bike_type | citybike | 1 | 2020-09-20 | |
+| XXX  | bike_type | rennvelo | 0 | 2020-09-20 | |
+| XXX  | bike_type | e-bike25km | 0 | 2020-09-20 | |
+| XXX  | bike_type | e-bike45km | 0 | 2020-09-20  | |
+| XXX  | bike_type | mountainbike | 0 | 2020-09-20 | |
+| XXX  | bike_type | e-mountainbike | 0 | 2020-09-20  | |
+| XXX  | bike_type | bikesharing | 1 | 2020-09-20 | |
+| XXX  | bike_usage | arbeit | 0 | 2020-09-20 | |  
+| XXX  | bike_usage | ausbildung | 0 | 2020-09-20 | |  
+| XXX  | bike_usage | alltag | 1 | 2020-09-20 | |  
+| XXX  | bike_usage | freizeit | 1 | 2020-09-20 | |  
+| XXX  | bike_usage | sport | 0 | 2020-09-20  | | 
+| XXX  | bike_usage | touren | 0 | 2020-09-20 | | 
+| XXX  | bike_frequency | selten | 1 | 2020-09-20 | |  
+| XXX  | transport_mode | fussgaenger_pct | 0.40  | 2020-09-20  | 2021-10-09|
+| XXX  | transport_mode | velo_pct | 0.55  | 2020-09-20  | 2021-10-09 |
+| XXX  | transport_mode | oev_pct | 0.05  | 2020-09-20 | 2021-10-09 |
+| XXX  | transport_mode | miv_pct | 0.00  | 2020-09-20  | 2021-10-09 | 
+| XXX  | bike_type | citybike | 0 | 2020-09-20 | 2021-10-09 |
+| XXX  | bike_type | rennvelo | 0 | 2020-09-20 | 2021-10-09 |
+| XXX  | bike_type | e-bike25km | 0 | 2020-09-20 | 2021-10-09 |
+| XXX  | bike_type | e-bike45km | 1 | 2020-09-20  | 2021-10-09 |
+| XXX  | bike_type | mountainbike | 0 | 2020-09-20 | 2021-10-09 |
+| XXX  | bike_type | e-mountainbike | 0 | 2020-09-20  | 2021-10-09 |
+| XXX  | bike_type | bikesharing | 1 | 2020-09-20 | 2021-10-09 |
+| XXX  | bike_usage | arbeit | 1 | 2020-09-20 | 2021-10-09|  
+| XXX  | bike_usage | ausbildung | 0 | 2020-09-20 | 2021-10-09|  
+| XXX  | bike_usage | alltag | 1 | 2020-09-20 | 2021-10-09|  
+| XXX  | bike_usage | freizeit | 1 | 2020-09-20 | 2021-10-09|  
+| XXX  | bike_usage | sport | 0 | 2020-09-20  | 2021-10-09 | 
+| XXX  | bike_usage | touren | 0 | 2020-09-20 | 2021-10-09 | 
+| XXX  | bike_frequency | taeglich | 1 | 2020-09-20  | 2021-10-09 |  
+
+Last rows are examples after an update, values and keys can switch from 0 to 1 and vice versa. That is why it is meaninful to store zero values as well for the topics with multiple options. Only bike_frequency wouldn't need an additional value, as the selected one will be unique and always be 1. 
+We might also modify or extend the DB in the future, so it is good to use all options. 
 
 
 
-
-
-
+### Topics          
+1. user_id, transport_mode [options: fussgaenger|velo|oev|miv], 0.00-1.00     
+(more than one, max. 4 options)     
+     
+2. user_id, bike_type [options: citybike|rennvelo|e-bike25km|e-bike45km|mountainbike|e-mountainbike|bikesharing], 1 or 0    
+(more than one option)      
+      
+3. user_id, bike_usage [options: arbeit|ausbildung|alltag|freizeit|sport|touren], 1 or 0    
+(more than one option)    
+      
+4. user_id, bike_frequency [options: taeglich|regelmaessig|selten|nie], 1 or 0    
+(only one option)    
+    
 
 
 
