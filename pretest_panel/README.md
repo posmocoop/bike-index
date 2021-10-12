@@ -182,42 +182,42 @@ For created_at, updated_at, we probably use UNIX timestamps.
 
 | user_id  | topic  | key  | value  | created_at | updated_at |
 |---|---|---|---|---|---|
-| XXX  | transport_mode | fussgaenger_pct | 0.40  | 2020-09-20  | |
-| XXX  | transport_mode | velo_pct | 0.25  | 2020-09-20  | |
-| XXX  | transport_mode | oev_pct | 0.35  | 2020-09-20 | |
-| XXX  | transport_mode | miv_pct | 0.00  | 2020-09-20  | |  
-| XXX  | bike_type | citybike | 1 | 2020-09-20 | |
-| XXX  | bike_type | rennvelo | 0 | 2020-09-20 | |
-| XXX  | bike_type | e-bike25km | 0 | 2020-09-20 | |
-| XXX  | bike_type | e-bike45km | 0 | 2020-09-20  | |
-| XXX  | bike_type | mountainbike | 0 | 2020-09-20 | |
-| XXX  | bike_type | e-mountainbike | 0 | 2020-09-20  | |
-| XXX  | bike_type | bikesharing | 1 | 2020-09-20 | |
-| XXX  | bike_usage | arbeit | 0 | 2020-09-20 | |  
-| XXX  | bike_usage | ausbildung | 0 | 2020-09-20 | |  
-| XXX  | bike_usage | alltag | 1 | 2020-09-20 | |  
-| XXX  | bike_usage | freizeit | 1 | 2020-09-20 | |  
-| XXX  | bike_usage | sport | 0 | 2020-09-20  | | 
-| XXX  | bike_usage | touren | 0 | 2020-09-20 | | 
-| XXX  | bike_frequency | selten | 1 | 2020-09-20 | |  
-| XXX  | transport_mode | fussgaenger_pct | 0.40  | 2020-09-20  | 2021-10-09|
-| XXX  | transport_mode | velo_pct | 0.55  | 2020-09-20  | 2021-10-09 |
-| XXX  | transport_mode | oev_pct | 0.05  | 2020-09-20 | 2021-10-09 |
-| XXX  | transport_mode | miv_pct | 0.00  | 2020-09-20  | 2021-10-09 | 
-| XXX  | bike_type | citybike | 0 | 2020-09-20 | 2021-10-09 |
-| XXX  | bike_type | rennvelo | 0 | 2020-09-20 | 2021-10-09 |
-| XXX  | bike_type | e-bike25km | 0 | 2020-09-20 | 2021-10-09 |
-| XXX  | bike_type | e-bike45km | 1 | 2020-09-20  | 2021-10-09 |
-| XXX  | bike_type | mountainbike | 0 | 2020-09-20 | 2021-10-09 |
-| XXX  | bike_type | e-mountainbike | 0 | 2020-09-20  | 2021-10-09 |
-| XXX  | bike_type | bikesharing | 1 | 2020-09-20 | 2021-10-09 |
-| XXX  | bike_usage | arbeit | 1 | 2020-09-20 | 2021-10-09|  
-| XXX  | bike_usage | ausbildung | 0 | 2020-09-20 | 2021-10-09|  
-| XXX  | bike_usage | alltag | 1 | 2020-09-20 | 2021-10-09|  
-| XXX  | bike_usage | freizeit | 1 | 2020-09-20 | 2021-10-09|  
-| XXX  | bike_usage | sport | 0 | 2020-09-20  | 2021-10-09 | 
-| XXX  | bike_usage | touren | 0 | 2020-09-20 | 2021-10-09 | 
-| XXX  | bike_frequency | taeglich | 1 | 2020-09-20  | 2021-10-09 |  
+| XXX  | transport_mode | fussgaenger_pct | 0.40  | 2021-09-20  | |
+| XXX  | transport_mode | velo_pct | 0.25  | 2021-09-20  | |
+| XXX  | transport_mode | oev_pct | 0.35  | 2021-09-20 | |
+| XXX  | transport_mode | miv_pct | 0.00  | 2021-09-20  | |  
+| XXX  | bike_type | citybike | 1 | 2021-09-20 | |
+| XXX  | bike_type | rennvelo | 0 | 2021-09-20 | |
+| XXX  | bike_type | e-bike25km | 0 | 2021-09-20 | |
+| XXX  | bike_type | e-bike45km | 0 | 2021-09-20  | |
+| XXX  | bike_type | mountainbike | 0 | 2021-09-20 | |
+| XXX  | bike_type | e-mountainbike | 0 | 2021-09-20  | |
+| XXX  | bike_type | bikesharing | 1 | 2021-09-20 | |
+| XXX  | bike_usage | arbeit | 0 | 2021-09-20 | |  
+| XXX  | bike_usage | ausbildung | 0 | 2021-09-20 | |  
+| XXX  | bike_usage | alltag | 1 | 2021-09-20 | |  
+| XXX  | bike_usage | freizeit | 1 | 2021-09-20 | |  
+| XXX  | bike_usage | sport | 0 | 2021-09-20  | | 
+| XXX  | bike_usage | touren | 0 | 2021-09-20 | | 
+| XXX  | bike_frequency | selten | 1 | 2021-09-20 | |  
+| XXX  | transport_mode | fussgaenger_pct | 0.40  | 2021-09-20  | 2022-10-09|
+| XXX  | transport_mode | velo_pct | 0.55  | 2021-09-20  | 2022-10-09 |
+| XXX  | transport_mode | oev_pct | 0.05  | 2021-09-20 | 2022-10-09 |
+| XXX  | transport_mode | miv_pct | 0.00  | 2021-09-20  | 2022-10-09 | 
+| XXX  | bike_type | citybike | 0 | 2021-09-20 | 2022-10-09 |
+| XXX  | bike_type | rennvelo | 0 | 2021-09-20 | 2022-10-09 |
+| XXX  | bike_type | e-bike25km | 0 | 2021-09-20 | 2022-10-09 |
+| XXX  | bike_type | e-bike45km | 1 | 2021-09-20  | 2022-10-09 |
+| XXX  | bike_type | mountainbike | 0 | 2021-09-20 | 2022-10-09 |
+| XXX  | bike_type | e-mountainbike | 0 | 2021-09-20 | 2022-10-09 |
+| XXX  | bike_type | bikesharing | 1 | 2021-09-20 | 2022-10-09 |
+| XXX  | bike_usage | arbeit | 1 | 2021-09-20 | 2022-10-09|  
+| XXX  | bike_usage | ausbildung | 0 | 2021-09-20 | 2022-10-09 |  
+| XXX  | bike_usage | alltag | 1 | 2021-09-20 | 2022-10-09 |  
+| XXX  | bike_usage | freizeit | 1 | 2021-09-20 | 2022-10-09 |  
+| XXX  | bike_usage | sport | 0 | 2021-09-20  | 2022-10-09 | 
+| XXX  | bike_usage | touren | 0 | 2021-09-20 | 2022-10-09 | 
+| XXX  | bike_frequency | taeglich | 1 | 2021-09-20  | 2022-10-09 |  
 
 Last rows are examples after an update, values and keys can switch from 0 to 1 and vice versa. That is why it is meaninful to store zero values as well for the topics with multiple options. Only bike_frequency wouldn't need an additional value, as the selected one will be unique and always be 1. 
 We might also modify or extend the DB in the future, so it is good to use all options. 
