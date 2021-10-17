@@ -178,7 +178,10 @@ Von Peter Gassner
 
 ## Version 2
 In einer Version 2, könnten wir neben Design 2 und Variante 3 auch weitere Fragen stellen. 
-Siehe z.B. Gfk- und Bosch-Umfrage.
+
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/fragen_zu_velo.jpeg" />
+
+Siehe z.B. [Gfk- und Bosch-Umfrage](https://nzzas.nzz.ch/schweiz/velowege-bevoelkerung-will-mehr-ld.1650747?mktcid=smsh&mktcval=Twitter).
  
           
 ## Database Structure: VelObserver Personas
