@@ -174,7 +174,12 @@ Von Peter Gassner
 <img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_6.png" width="160"/>  
 </td>
 </tr> 
-</table>      
+</table>     
+
+## Version 2
+In einer Version 2, könnten wir neben Design 2 und Variante 3 auch weitere Fragen stellen. 
+Siehe z.B. Gfk- und Bosch-Umfrage.
+ 
           
 ## Database Structure: VelObserver Personas
 ### Personas
