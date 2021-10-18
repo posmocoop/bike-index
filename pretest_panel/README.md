@@ -177,6 +177,10 @@ Von Peter Gassner
 </table>     
 
 ## Version 2
+
+- https://github.com/posmocoop/bike-index/tree/main/pretest_panel#variante-3-nur-wie-bist-du-unterwegs
+- 
+
 In einer Version 2, könnten wir neben Design 2 und Variante 3 auch weitere Fragen, z.B. zur Sicherheit, stellen.                  
 Siehe z.B. [Gfk- und Bosch-Umfrage](https://nzzas.nzz.ch/schweiz/velowege-bevoelkerung-will-mehr-ld.1650747?mktcid=smsh&mktcval=Twitter).           
                 
