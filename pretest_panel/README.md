@@ -113,7 +113,7 @@ Ich pendle nach
 PLZ, Ort         
 
 ### Konto Erstellen
-Damit du später die Velorouten bewerten kannst, benötigst du ein Konto. Die bisher gemachten Aussagen sind wichtig, um die Bewertungen zu gewichten und ihre Repräsentativität zu gewährleisten. 
+Damit Du später die Velorouten bewerten kannst, benötigst Du ein Konto. Die bisher gemachten Aussagen sind wichtig, um die Bewertungen zu gewichten und ihre Repräsentativität zu gewährleisten. 
 - E-Mail
 - Passwort 
 
