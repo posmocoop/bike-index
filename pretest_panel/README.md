@@ -24,12 +24,15 @@ Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Ve
 - [ ] **MIV**: Auto, Motorrad %
 
 ### Dein Velo?
-- [ ] Citybike
+- [ ] Citybike 
 - [ ] Rennvelo
+- [ ] Faltvelo
 - [ ] E-Bike, 25km/h
 - [ ] Schnelles E-Bike, 45km/h
 - [ ] Mountainbike
 - [ ] E-Mountainbike
+- [ ] Gravel Bike
+- [ ] Tourenbike
 - [ ] Bikesharing (Publibike usw.)
 
 ### Wann fährst Du?
@@ -38,7 +41,7 @@ Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Ve
 - [ ] Alltag
 - [ ] Freizeit
 - [ ] Sport
-- [ ] Touren
+- [ ] Touren / Reisen
 
 ### Wie oft?
 - Täglich
@@ -244,10 +247,10 @@ We might also modify or extend the DB in the future, so it is good to use all op
 1. user_id, transport_mode [options: fussgaenger|velo|oev|miv], 0.00-1.00     
 (more than one, max. 4 options)     
      
-2. user_id, bike_type [options: citybike|rennvelo|e-bike25km|e-bike45km|mountainbike|e-mountainbike|bikesharing], 1 or 0    
+2. user_id, bike_type [options: citybike|rennvelo|faltvelo|e-bike25km|e-bike45km|mountainbike|e-mountainbike|gravelbike|tourenbike|bikesharing], 1 or 0    
 (more than one option)      
       
-3. user_id, bike_usage [options: arbeit|ausbildung|alltag|freizeit|sport|touren], 1 or 0    
+3. user_id, bike_usage [options: arbeit|ausbildung|alltag|freizeit|sport|touren-reisen], 1 or 0    
 (more than one option)    
       
 4. user_id, bike_frequency [options: taeglich|regelmaessig|selten|nie], 1 or 0    
