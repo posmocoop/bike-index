@@ -17,7 +17,7 @@ Wir stellen Fragen zur:
 Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Velorouten ab. Dazu benötigen wir E-Mail und Passwort.    
      
 
-### Wie bist du unterwegs?
+### Wie bist Du unterwegs?
 - [ ] Zu Fuss %
 - [ ] Velo %
 - [ ] **ÖV**: Tram, Bus, Bahn %
