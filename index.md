@@ -1,4 +1,4 @@
-INDEX QUESTIONS
+# INDEX QUESTIONS
 
 ## 1-10 or 1-6
 1-10 is better, as in 1-6 the middle would be 3.5
