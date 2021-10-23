@@ -18,8 +18,9 @@ Interval scales do not have a true zero. [See p.15](https://www.sagepub.com/site
 0-2.4 | 2.5-4.9 | 5-7.4 | 7.5-9.9
 
 
-## Einführung von Sicherheit vor Attraktivität und Konfliktfreiheit?
-Sollen wir alles auf einmal einführen oder alle 3 gleichzeitig?
+## Einführung von z.B. Sicherheit vor Attraktivität und Konfliktfreiheit?
+Sollen wir alles auf einmal einführen oder eins nach dem anderen? Unlock strategy?   
+Man muss zuerst eines ausfüllen für z.B. 20 Segmente, um die anderen beiden zu unlocken. 
 
 ## Strecken und Knoten
 Mit OSM können wir nicht nur Strecken bewerten, sondern auch die Knoten. Sollen wir zuerst mit den Strecken beginnen, dann mit den Knoten.
