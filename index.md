@@ -26,7 +26,7 @@ Mit OSM können wir nicht nur Strecken bewerten, sondern auch die Knoten. Sollen
 ## Wichtige Orte
 Wichtige Orte einzeichnen, siehe offizielle Velovorzugsroutenkarte [hier](https://twitter.com/posmo_coop/status/1450060311038418945?s=20).
 
-# Wichtigste Linien (Schlieren-Zollikon, Opfikon-Wiedikon) 
+## Wichtigste Linien (Schlieren-Zollikon, Opfikon-Wiedikon) 
 In Paris hat der Réseau Express Vélo (REVe) den Umbruch angezeigt. Wir sollten diesen Verbindungen stärkere Beachtung geben und darauf pochen, dass sich vor allem hier rasch etwas verändert.
 
 
