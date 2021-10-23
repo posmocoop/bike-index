@@ -18,3 +18,15 @@ Interval scales do not have a true zero. [See p.15](https://www.sagepub.com/site
 0-2.4 | 2.5-4.9 | 5-7.4 | 7.5-9.9
 
 
+## Einführung von Sicherheit vor Attraktivität und Konfliktfreiheit?
+
+## Strecken und Knoten
+Mit OSM können wir nicht nur Strecken bewerten, sondern auch die Knoten. Sollen wir zuerst mit den Strecken beginnen, dann mit den Knoten.
+
+## Wichtige Orte
+Wichtige Orte einzeichnen, siehe offizielle Velovorzugsroutenkarte [hier](https://twitter.com/posmo_coop/status/1450060311038418945?s=20).
+
+# Wichtigste Linien (Schlieren-Zollikon, Opfikon-Wiedikon) 
+In Paris hat der Réseau Express Vélo (REVe) den Umbruch angezeigt. Wir sollten diesen Verbindungen stärkere Beachtung geben und darauf pochen, dass sich vor allem hier rasch etwas verändert.
+
+
