@@ -19,6 +19,7 @@ Interval scales do not have a true zero. [See p.15](https://www.sagepub.com/site
 
 
 ## Einführung von Sicherheit vor Attraktivität und Konfliktfreiheit?
+Sollen wir alles auf einmal einführen oder alle 3 gleichzeitig?
 
 ## Strecken und Knoten
 Mit OSM können wir nicht nur Strecken bewerten, sondern auch die Knoten. Sollen wir zuerst mit den Strecken beginnen, dann mit den Knoten.
