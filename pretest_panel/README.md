@@ -17,19 +17,22 @@ Wir stellen Fragen zur:
 Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Velorouten ab. Dazu benötigen wir E-Mail und Passwort.    
      
 
-### Wie bist du unterwegs?
+### Wie bist Du unterwegs?
 - [ ] Zu Fuss %
 - [ ] Velo %
 - [ ] **ÖV**: Tram, Bus, Bahn %
 - [ ] **MIV**: Auto, Motorrad %
 
 ### Dein Velo?
-- [ ] Citybike
+- [ ] Citybike 
 - [ ] Rennvelo
+- [ ] Faltvelo
 - [ ] E-Bike, 25km/h
 - [ ] Schnelles E-Bike, 45km/h
 - [ ] Mountainbike
 - [ ] E-Mountainbike
+- [ ] Gravel Bike
+- [ ] Tourenbike
 - [ ] Bikesharing (Publibike usw.)
 
 ### Wann fährst Du?
@@ -38,7 +41,7 @@ Und wir schliessen mit der Kontoeröffnung für die zukünftige Bewertung der Ve
 - [ ] Alltag
 - [ ] Freizeit
 - [ ] Sport
-- [ ] Touren
+- [ ] Touren / Reisen
 
 ### Wie oft?
 - Täglich
@@ -113,7 +116,7 @@ Ich pendle nach
 PLZ, Ort         
 
 ### Konto Erstellen
-Damit du später die Velorouten bewerten kannst, benötigst du ein Konto. Die bisher gemachten Aussagen sind wichtig, um die Bewertungen zu gewichten und ihre Repräsentativität zu gewährleisten. 
+Damit Du später die Velorouten bewerten kannst, benötigst Du ein Konto. Die bisher gemachten Aussagen sind wichtig, um die Bewertungen zu gewichten und ihre Repräsentativität zu gewährleisten. 
 - E-Mail
 - Passwort 
 
@@ -244,10 +247,10 @@ We might also modify or extend the DB in the future, so it is good to use all op
 1. user_id, transport_mode [options: fussgaenger|velo|oev|miv], 0.00-1.00     
 (more than one, max. 4 options)     
      
-2. user_id, bike_type [options: citybike|rennvelo|e-bike25km|e-bike45km|mountainbike|e-mountainbike|bikesharing], 1 or 0    
+2. user_id, bike_type [options: citybike|rennvelo|faltvelo|e-bike25km|e-bike45km|mountainbike|e-mountainbike|gravelbike|tourenbike|bikesharing], 1 or 0    
 (more than one option)      
       
-3. user_id, bike_usage [options: arbeit|ausbildung|alltag|freizeit|sport|touren], 1 or 0    
+3. user_id, bike_usage [options: arbeit|ausbildung|alltag|freizeit|sport|touren-reisen], 1 or 0    
 (more than one option)    
       
 4. user_id, bike_frequency [options: taeglich|regelmaessig|selten|nie], 1 or 0    
