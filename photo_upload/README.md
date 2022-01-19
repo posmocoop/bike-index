@@ -30,7 +30,7 @@ street_name
 city
 
 ## Constraints
-- One image per edge (?) - so that we do not have an old image and a new image after the infrastructure changes
+- One image per edge (?) - so that we do not have an old image and a new image after infrastructure changes
 - Always the newest photo is shown on index
 
 ## On index.velobserver.ch
