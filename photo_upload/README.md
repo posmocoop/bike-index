@@ -4,11 +4,12 @@ Automated, but verified by humans
 
 ## User Story
 ## Before using the Photo Upload Tool (PUT)
-User chooses a route of the "Velovorzugsroutennetz" (e.g. Wollishofen–Tiefenbrunnen, 7.7km) on the expert view (wrench icon) on index.velobserver.ch. He rodes along this route by taking photos. 
+User chooses a route of the "Velovorzugsroutennetz" (e.g. Wollishofen–Tiefenbrunnen, 7.7km) on the expert view (wrench icon) on index.velobserver.ch. 
+S/He rodes along this route by taking photos. 
 
-Minimum: 6 photos per km (more is always possible) 
-Single Photo size between 3-4 MB.
-EXIF data: timestamp, lat,lon of the photo
+Minimum: 6 photos per km (more is always possible)    
+Single Photo size between 3-4 MB.               
+EXIF data: timestamp, lat,lon of the photo              
 
 ## Using the Photo Upload Tool (PUT): Upload images
 In the expert view, the user can upload one or more photos per route.        
