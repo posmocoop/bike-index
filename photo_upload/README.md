@@ -21,13 +21,14 @@ Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then 
 
 If you click the pin, you see the photo and a "Verify"-Button underneath. If you click "Verify", the pin is fixed and the photo becomes available and the following data is shown and remains editable (Edit/Save Button). 
 
-(timestamp) as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 
-pin_lat, pin_lon
-edge_id
-street_name 
-(street_number)
-(neighborhood?)
-city
+- timestamp as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 
+- pin_lat, pin_lon
+- edge_id
+- street_name 
+- (street_number)
+- (neighborhood?)
+- city
+- country, Alpha-2 ISO-Code, e.g. CH, "Zürich, CH", "Berlin, DE", "Paris, FR" 
 
 ## Constraints
 - One image per edge (?) - so that we do not have an old image and a new image after infrastructure changes
