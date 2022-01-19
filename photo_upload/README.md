@@ -23,8 +23,10 @@ Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then 
 By clicking (Upload Photos) one can find and select one or more pictures to upload. Pictures can be uploaded in sequence. 
 
 ### After Upload
-Photos | Verified           
-77     | 16        
+```
+Photos | Verified                 
+77     | 16       
+```   
 
 ### Verified pin color
 Verified pins are green, not verified pins are red
