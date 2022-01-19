@@ -19,18 +19,45 @@ The suffix **_360x240** is added to the resized and resampled image.
 
 Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then project and position pins on the route (pin_lon, pin_lat). Pins can only be moved along the route.   
 
+### Upload 
+By clicking (Upload Photos) one can find and select one or more pictures to upload. Pictures can be uploaded in sequence. 
+
+### After Upload
+Photos | Verified
+77       16
+
+### Verified pin color
+Verified pins are green, not verified pins are red
+
+
 ## Positioning a pin, verifying and editing, saving text  
 
-If you click the pin, you see the photo and a "Verify"-Button underneath. If you click "Verify", the pin is fixed and the photo becomes available on index.velobserver.ch. The following data is shown and remains editable (Edit/Save Button). 
+If you click the pin, you see the photo, text and a "Verify"-Button underneath. If you click "Verify", the pin is fixed and the photo becomes available as a photo on index.velobserver.ch. The following data is shown under the picture and remains editable (Edit/Save Button), similar in design as for the rating. 
 
+[PHOTO]
+
+(Edit | Save)
+street_name, neighborhood                   timestamp
+city, country_code
+
+(Verify)
+
+**In DB**: 
+- path to photo 360x240
+- path to original
 - timestamp as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 (**not** editable)
+- lat, lon
 - pin_lat, pin_lon (**not** editable)
 - edge_id (**not** editable)
 - street_name (editable)
 - (street_number)
 - (neighborhood?)
 - city (**not** editable)
-- country, Alpha-2 ISO-Code, e.g. CH, "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)
+- country_code, Alpha-2 ISO-Code, e.g. CH, "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)
+
+### Verified pin color
+Verified pins are green, not verified pins are red
+
 
 ## Constraints
 - One image per edge (?) - so that we do not have an old image and a new image after infrastructure changes
