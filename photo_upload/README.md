@@ -12,19 +12,19 @@ EXIF data: timestamp, lat,lon of the photo
 
 ## Using the Photo Upload Tool (PUT): Upload images
 In the expert view, the user can upload one or more photos per route.        
-Timestamp, orig_lat, orig_lon are extracted from the image.        
-           
+Timestamp, orig_lat, orig_lon are extracted from the image.          
+               
 Photos are resized and resampled (360x240) for the mobile version (Desktop version?), the original photo is kept.  
-The suffix **_360x240** is added to the resized and resampled image.        
-
-Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then project and position pins on the route (pin_lon, pin_lat). Pins can only be moved along the route.   
+The suffix "_360x240" is added to the resized and resampled image.                    
+            
+Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then project and position pins on the route (pin_lon, pin_lat). Pins can only be moved along the route.        
 
 ### Upload 
 By clicking (Upload Photos) one can find and select one or more pictures to upload. Pictures can be uploaded in sequence. 
 
 ### After Upload
-Photos | Verified
-77       16
+Photos | Verified           
+77     | 16        
 
 ### Verified pin color
 Verified pins are green, not verified pins are red
