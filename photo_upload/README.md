@@ -21,16 +21,16 @@ Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then 
 
 ## Positioning a pin, verifying and editing, saving text  
 
-If you click the pin, you see the photo and a "Verify"-Button underneath. If you click "Verify", the pin is fixed and the photo becomes available and the following data is shown and remains editable (Edit/Save Button). 
+If you click the pin, you see the photo and a "Verify"-Button underneath. If you click "Verify", the pin is fixed and the photo becomes available on index.velobserver.ch. The following data is shown and remains editable (Edit/Save Button). 
 
-- timestamp as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 
-- pin_lat, pin_lon
-- edge_id
-- street_name 
+- timestamp as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 (**not** editable)
+- pin_lat, pin_lon (**not** editable)
+- edge_id (**not** editable)
+- street_name (editable)
 - (street_number)
 - (neighborhood?)
-- city
-- country, Alpha-2 ISO-Code, e.g. CH, "Zürich, CH", "Berlin, DE", "Paris, FR" 
+- city (**not** editable)
+- country, Alpha-2 ISO-Code, e.g. CH, "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)
 
 ## Constraints
 - One image per edge (?) - so that we do not have an old image and a new image after infrastructure changes
