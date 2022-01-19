@@ -10,14 +10,16 @@ Minimum: 6 photos per km (more is always possible)
 Single Photo size between 3-4 MB.
 EXIF data: timestamp, lat,lon of the photo
 
-## Using the Photo Upload Tool (PUT)
+## Using the Photo Upload Tool (PUT): Upload images
 In the expert view, the user can upload one or more photos per route.        
 Timestamp, orig_lat, orig_lon are extracted from the image.        
            
 Photos are resized and resampled (360x240) for the mobile version (Desktop version?), the original photo is kept.  
 The suffix **_360x240** is added to the resized and resampled image.        
 
-Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then project and position pins on the route (pin_lon, pin_lat). Pins can only be moved along the route.     
+Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then project and position pins on the route (pin_lon, pin_lat). Pins can only be moved along the route.   
+
+## Positioning a pin, verifying and editing, saving text  
 
 If you click the pin, you see the photo and a "Verify"-Button underneath. If you click "Verify", the pin is fixed and the photo becomes available and the following data is shown and remains editable (Edit/Save Button). 
 
