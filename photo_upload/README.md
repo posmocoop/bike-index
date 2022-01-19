@@ -35,14 +35,15 @@ Verified pins are green, not verified pins are red
 ## Positioning a pin, verifying and editing, saving text  
 
 If you click the pin, you see the photo, text and a "Verify"-Button underneath. If you click "Verify", the pin is fixed and the photo becomes available as a photo on index.velobserver.ch. The following data is shown under the picture and remains editable (Edit/Save Button), similar in design as for the rating. 
-
+```
 [PHOTO]
-
-(Edit | Save)
+          
+(Edit | Save)            
 street_name, neighborhood                   timestamp
 city, country_code
 
 (Verify)
+```
 
 **In DB**: 
 - path to photo 360x240
