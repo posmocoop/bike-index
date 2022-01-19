@@ -15,7 +15,7 @@ In the expert view, the user can upload one or more photos per route.
 Timestamp, orig_lat, orig_lon are extracted from the image.        
            
 Photos are resized and resampled (360x240) for the mobile version (Desktop version?), the original photo is kept.  
-The suffix 360x240 is added to the resized and resampled image.        
+The suffix **_360x240** is added to the resized and resampled image.        
 
 Photos are positioned via pins on the edge. We keep orig_lon, orig_lat and then project and position pins on the route (pin_lon, pin_lat). Pins can only be moved along the route.     
 
