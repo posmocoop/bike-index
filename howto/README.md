@@ -1,14 +1,15 @@
 # HOW-TO
 
 ## How to choose a bike route
-The current "Velovorzugsroutennetz" of the city of Zurich just defines a general route mostly in the middle of a car street. The route graph can be inconsistent with the written description of the route. 
+The current [**Velovorzugsroutennetz**](https://github.com/posmocoop/bike-index/blob/main/map/zurich/zurich_vorzugsrouten_2021-10-18.geojson) of the city of Zurich just defines a general route mostly in the middle of a car street. The route graph can be inconsistent with the written description of the route.         
 
-Our OSM graph on the other hand is more precise. 
-Some problems arise therefore. 
+Our OSM graph on the other hand is more precise.             
+Some problems arise therefore.             
 
-We will travel each route in both directions (again) and decide on the best approach. 
-Here is a quick "How-To".
+We will travel each route in both directions (again) and decide on the best approach.             
+Here is a quick "How-To".            
 
+PS:         
 Even though the city has downplayed the idea of routes and considers this as a network, routes are much better to talk about. 
 Routes are the talkable items, routes have a length, and the nodes where the routes come together are supernodes. At least for the "Velovorzugsroutennetz" we should talk and name the routes, so that we create a common vocabulary for the inhabitants of Zurich.
 
