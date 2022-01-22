@@ -1,7 +1,7 @@
 # HOW-TO
 
 ## How to choose a bike route
-The current [**Velovorzugsroutennetz**](https://github.com/posmocoop/bike-index/blob/main/map/zurich/zurich_vorzugsrouten_2021-10-18.geojson) of the city of Zurich just defines a general route mostly in the middle of a car street. The route graph can be inconsistent with the written description of the route.         
+The current [**Velovorzugsroutennetz**](https://github.com/posmocoop/bike-index/blob/main/map/zurich/zurich_vorzugsrouten_2021-10-18.geojson) of the city of Zurich just defines a general route mostly in the middle of a car street. The route graph can be inconsistent with the written description of the route.          
 
 Our OSM graph on the other hand is more precise.             
 Some problems arise therefore.             
@@ -11,7 +11,7 @@ Here is a quick "How-To".
 
 PS:         
 Even though the city has downplayed the idea of routes and considers this as a network, routes are much better to talk about. 
-Routes are the talkable items, routes have a length, and the nodes where the routes come together are supernodes. At least for the "Velovorzugsroutennetz" we should talk and name the routes, so that we create a common vocabulary for the inhabitants of Zurich.
+Routes are the talkable items, routes have a length, and the nodes where the routes come together are supernodes. At least for the "Velovorzugsroutennetz" we should talk and name the routes, so that we create a common vocabulary for the inhabitants of Zurich.       
 
 
 ### How-to
@@ -21,13 +21,13 @@ Routes are the talkable items, routes have a length, and the nodes where the rou
 2. Always route both directions, e.g. Wollishofen - Tiefenbrunnen, and Tiefenbrunnen - Wollishofen. For the length of the network we 
    only consider one direction by using the official names.
 
-3. Followed the graph, but use the written description (street names) if the path in the description is safer
-   Example: 
+3. Followed the graph, but use the written description (street names) if the path in the description is safer               
+   Example:             
    - **Wollishofen - Tiefenbrunnen**: Use Theaterstrasse => Schillerstrasse => Falkenstrasse  (graph: Theaterstrasse => Falkenstrasse)
    - **Wollishofen - Tiefenbrunnen**: Ignore Münchhaldenstrasse (description) and use Nebelbachstrasse (graph)
 
-4. Travel the route you would travel and you would recommend with safety and directness in mind (safety first, directness second)
-   Example: 
+4. Travel the route you would travel and you would recommend with safety and directness in mind (safety first, directness second)               
+   Example:           
    - **Wollishofen - Tiefenbrunnen**: Use the same bike path from and to Tiefenbrunnen on the Quaibrücke sea-side and afterwards. 
    There is an alternative bike path on the Quaibrücke on the city side, but just after the bridge you have to mingle with a lot of cars coming in from all sides, which you can avoid if you remain on the other side. It is not ideal because there is not enough space for cyclists in both directions, and there are pedestrians stepping into the bike route, but it is still much safer. 
 
