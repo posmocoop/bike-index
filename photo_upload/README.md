@@ -16,7 +16,7 @@ In the expert view, the user A uploads photos with EXIF data for a *given route*
 
 An edge can have multiple directions.
                        
-See also: https://github.com/posmocoop/veloplan#edges
+See also: https://github.com/posmocoop/veloplan#edges                   
 And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI_00278420_E-RS-170118-final3.pdf
 
 ### Table Photos (network_route_edges_images)
