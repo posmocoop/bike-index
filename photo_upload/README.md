@@ -29,7 +29,6 @@ And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI
 - exif_lon
 - pin_lat
 - pin_lon 
-- edge_id
 - street_name
 - street_number (optional)
 - neighborhood (optional)
