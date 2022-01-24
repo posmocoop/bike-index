@@ -8,18 +8,22 @@ In the expert view, the user A uploads photos with EXIF data for a *given route*
 (EXIF data, timestamp, lat, lon is extracted). After that a csv download of the data is available for the route. 
 
 
-### Table Edges or Routes
+### Table Routes?
 - route_id
 - route_name (e.g. Wollishofen - Tiefenbrunnen)
 - default (1 for default, 0 otherwise)
 - direction (I for inbound, O for outbound) 
+
+An edge can have multiple directions.
                        
 See also: https://github.com/posmocoop/veloplan#edges
 And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI_00278420_E-RS-170118-final3.pdf
 
-### Table Photos
-
-- filename
+### Table Photos (network_route_edges_images)
+- id
+- network_ogc_fid (=edge id)
+- image_filename 
+- image_url
 - exif_datetime (as ISO 8601, local: YYYY-MM-DDTHH:MM+01:00)
 - exif_lat
 - exif_lon
@@ -31,10 +35,13 @@ And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI
 - neighborhood (optional)
 - city
 - country_code, Alpha-2 ISO-Code  
+- created_at
+- update_at
+- deleted_at
 
-
-Will be displayed as "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)
-
+**NOTE:** 
+City, country_code will be displayed as "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)
+Exif_datetime will be displayed as "DD.MM.YYYY, HH:MM", zeroes are stripped
 
 ### Update of the database
 User B (or user A) populates the csv. Then the database is updated, either via pgadmin or via expert view. 
