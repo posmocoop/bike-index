@@ -121,7 +121,8 @@ The bbox of the map is centered on the pin, the full edge is shown
 
 
 ## Tools
-- imagemagick (rokka?)
+imgix = has the advantage that the images remain with us
+- imagemagick or rokka?)
 
 
 
