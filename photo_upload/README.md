@@ -20,24 +20,24 @@ See also: https://github.com/posmocoop/veloplan#edges
 And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI_00278420_E-RS-170118-final3.pdf
 
 ### Table Photos (network_route_edges_images)
-- id
-- network_ogc_fid (=edge id)
-- image_filename (=original path, not imgix path)
-- image_url
-- exif_datetime (as ISO 8601, local: YYYY-MM-DDTHH:MM+01:00)
-- exif_lat
-- exif_lon
-- pin_lat
-- pin_lon 
-- street_name
-- street_number (optional)
-- neighborhood (optional)
-- city
-- geoid (75601120261 for Zurich, important for a multilingual site)
-- country_code, Alpha-2 ISO-Code  
-- created_at
-- update_at
-- deleted_at
+- **id**
+- **network_ogc_fid** (=edge id)
+- **image_filename** 
+- **image_url** (=original path, not imgix path)
+- **exif_datetime** (as ISO 8601, local: YYYY-MM-DDTHH:MM+01:00 = local time)
+- **exif_lat**
+- **exif_lon**
+- **pin_lat** (= lat, lon, positioned on the edge)
+- **pin_lon** 
+- **street_name**
+- **street_number** (optional)
+- **neighborhood** (optional)
+- **city**
+- **geoid** (75601120261 for Zurich, important for a multilingual site)
+- **country_code** (Alpha-2 ISO-Code)  
+- **created_at**
+- **update_at**
+- **deleted_at**
 
 **NOTE:** 
 City, country_code will be displayed as "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)                   
