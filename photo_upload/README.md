@@ -33,6 +33,7 @@ And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI
 - street_number (optional)
 - neighborhood (optional)
 - city
+- geoid (75601120261 for Zurich, important for a multilingual site)
 - country_code, Alpha-2 ISO-Code  
 - created_at
 - update_at
