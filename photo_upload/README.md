@@ -1,9 +1,19 @@
 # Photo Upload
+
+
+## Revised User Story
+1. In the expert view, the user A uploads photos with EXIF data for a *given route* (route Wollishofen – Tiefenbrunnen). E.g. it would be good to give them an id (eg. there will probably be 2 routes Wollishofen - Tiefenbrunnen and Tiefenbrunnen - Wollishofen, the second one gets an "R" for direction).  
+(EXIF data, timestamp, lat, lon is extracted). After that a csv download of the data is available for the route. 
+
+2. User B (or user A) populates the csv. Then the database is updated (either via pgadmin or via expert view. 
+
+
+
+
+## User Story 
 Automated, but verified by humans
 
-
-## User Story
-## Before using the Photo Upload Tool (PUT)
+## 1. Before using the Photo Upload Tool (PUT)
 User chooses a route of the "Velovorzugsroutennetz" (e.g. Wollishofen–Tiefenbrunnen, 7.7km) on the expert view (wrench icon) on index.velobserver.ch. 
 S/He rodes along this route by taking photos. 
 
@@ -11,7 +21,7 @@ Minimum: 6 photos per km (more is always possible)
 Single Photo size between 3-4 MB.               
 EXIF data: timestamp, lat,lon of the photo              
 
-## Using the Photo Upload Tool (PUT): Upload images
+## 2. Using the Photo Upload Tool (PUT): Upload images
 In the expert view, the user can upload one or more photos per route.        
 Timestamp, orig_lat, orig_lon are extracted from the image.          
                
@@ -49,7 +59,7 @@ city, country_code
 **In DB**: 
 - path to photo 360x240
 - path to original
-- timestamp as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 (**not** editable)
+- timestamp as ISO date/time with local offset (e.g. YYYY-MM-DDTHH:MM+01:00), displayed as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 (**not** editable)
 - lat, lon
 - pin_lat, pin_lon (**not** editable)
 - edge_id (**not** editable)
