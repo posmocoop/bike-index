@@ -12,7 +12,7 @@ In the expert view, the user A uploads photos with EXIF data for a *given route*
 - route_id
 - route_name (e.g. Wollishofen - Tiefenbrunnen)
 - default (1 for default, 0 otherwise)
-- direction (I for inbound, O for outbound)
+- direction (I for inbound, O for outbound)          
 See also: https://github.com/posmocoop/veloplan#edges
 
 
