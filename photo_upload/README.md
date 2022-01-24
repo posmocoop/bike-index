@@ -40,7 +40,7 @@ And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI
 - deleted_at
 
 **NOTE:** 
-City, country_code will be displayed as "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)
+City, country_code will be displayed as "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)                   
 Exif_datetime will be displayed as "DD.MM.YYYY, HH:MM", zeroes are stripped
 
 ### Update of the database
