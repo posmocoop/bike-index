@@ -5,7 +5,7 @@
 1. In the expert view, the user A uploads photos with EXIF data for a *given route* (route Wollishofen – Tiefenbrunnen). E.g. it would be good to give them an id (eg. there will probably be 2 routes Wollishofen - Tiefenbrunnen and Tiefenbrunnen - Wollishofen, the second one gets an "R" for direction).  
 (EXIF data, timestamp, lat, lon is extracted). After that a csv download of the data is available for the route. 
 
-2. User B (or user A) populates the csv. Then the database is updated (either via pgadmin or via expert view. 
+2. User B (or user A) populates the csv. Then the database is updated, either via pgadmin or via expert view. 
 
 
 
