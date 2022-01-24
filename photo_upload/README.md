@@ -2,8 +2,37 @@
 
 
 ## Revised User Story
-1. In the expert view, the user A uploads photos with EXIF data for a *given route* (route Wollishofen – Tiefenbrunnen). E.g. it would be good to give them an id (eg. there will probably be 2 routes Wollishofen - Tiefenbrunnen and Tiefenbrunnen - Wollishofen, the second one gets an "R" for direction).  
+1. In the expert view, the user A uploads photos with EXIF data for a *given route* (route Wollishofen – Tiefenbrunnen). E.g. it would be good to give them an id (eg. there will probably be 2 routes Wollishofen - Tiefenbrunnen and Tiefenbrunnen - Wollishofen, the column default gets a "1" or a "0", and the column direction gets an "I" for inbound or "O" for outbound).  
 (EXIF data, timestamp, lat, lon is extracted). After that a csv download of the data is available for the route. 
+
+
+### Table Edges or Routes
+- route_id
+- route_name (e.g. Wollishofen - Tiefenbrunnen)
+- default (1 for default, 0 otherwise)
+- direction (I for inbound, O for outbound)
+See also: https://github.com/posmocoop/veloplan#edges
+
+
+### Table Photos
+
+- filename
+- exif_datetime (as ISO 8601, local: YYYY-MM-DDTHH:MM+01:00)
+- exif_lat
+- exif_lon
+- pin_lat
+- pin_lon 
+- edge_id
+- street_name
+- street_number (optional)
+- neighborhood (optional)
+- city
+- country_code, Alpha-2 ISO-Code  
+
+
+Will be displayed as "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)
+
+
 
 2. User B (or user A) populates the csv. Then the database is updated, either via pgadmin or via expert view. 
 
