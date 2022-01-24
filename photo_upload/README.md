@@ -22,7 +22,7 @@ And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI
 ### Table Photos (network_route_edges_images)
 - id
 - network_ogc_fid (=edge id)
-- image_filename 
+- image_filename (=original path, not imgix path)
 - image_url
 - exif_datetime (as ISO 8601, local: YYYY-MM-DDTHH:MM+01:00)
 - exif_lat
