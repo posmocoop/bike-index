@@ -8,7 +8,7 @@ In the expert view, the user A uploads photos with EXIF data for a *given route*
 (EXIF data, timestamp, lat, lon is extracted). After that a csv download of the data is available for the route. 
 
 
-### Table Routes?
+### Table Routes (network_routes)
 - route_id
 - route_name (e.g. Wollishofen - Tiefenbrunnen)
 - default (1 for default, 0 otherwise)
