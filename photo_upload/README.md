@@ -21,6 +21,7 @@ And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI
 
 ### Table Photos (network_route_edges_images)
 - **id**
+- **route_id** (optional)
 - **network_ogc_fid** (=edge id)
 - **image_filename** 
 - **image_url** (=original path, not imgix path)
