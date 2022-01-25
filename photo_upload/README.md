@@ -9,11 +9,12 @@ In the expert view, the user A uploads photos with EXIF data for a *given route*
 
 
 ### Table Routes (network_routes)
-- route_id
-- route_name (e.g. Wollishofen - Tiefenbrunnen)
+- **route_id**
+- parent_id (only for non default routes) - to discuss: Wollishofen - Tiefenbrunnen is the parent of Tiefenbrunnen - Wollishofen. They share probably 90% of the edges.
+- **route_name** (e.g. Wollishofen - Tiefenbrunnen)
 - default (1 for default, 0 otherwise)
 - direction (I for inbound, O for outbound) 
-- visible (1 or 0) (= visible for users)
+- **visible** (1 or 0) (= visible for users)
 
 An edge can have multiple directions.
                        
