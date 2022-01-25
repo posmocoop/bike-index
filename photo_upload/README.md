@@ -4,7 +4,7 @@
 ## Revised User Story
 
 ### Upload of photos
-In the expert view, the user A uploads photos with EXIF data for a *given route* (route Wollishofen – Tiefenbrunnen). E.g. it would be good to give them an id (eg. there will probably be 2 routes Wollishofen - Tiefenbrunnen and Tiefenbrunnen - Wollishofen, the column default gets a "1" or a "0", and the column direction gets an "I" for inbound or "O" for outbound).  
+In the expert view, the user A uploads photos with EXIF data for a *given route* (route Wollishofen – Tiefenbrunnen). 
 (EXIF data, timestamp, lat, lon is extracted). After that a csv download of the data is available for the route. 
 
 
