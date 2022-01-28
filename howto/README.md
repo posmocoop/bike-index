@@ -33,7 +33,9 @@ Routes are the talkable items, routes have a length, and the nodes where the rou
 
 5. We consider bike routes on the sidewalk as sidewalk. 
 
-6. There might be parts that don't fit into the route idea. 
+6. "Mut zur Lücke". If we have a situation like Hornbach, we just leave a gap, instead of offering a route nobody will travel. 
+
+7. (There might be parts that don't fit into the route idea.) 
 
 
 
