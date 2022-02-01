@@ -18,7 +18,7 @@ Routes are the talkable items, routes have a length, and the nodes where the rou
 1. Here we rate the "Velovorzugsrouten", the highest standard, which should allow people from 8 to 80 to cycle. Always keep this in 
    mind. Today which specific route would you recommend to someone when safety is crucial. The implication here is that this might trigger different solutions, e.g. instead of having bikes on both sides of the bridge, opt for one side only, increase the width of the bike lane and reduce one car lane or widen the bridge.
 
-2. Always route both directions, e.g. Wollishofen - Tiefenbrunnen, and Tiefenbrunnen - Wollishofen. For the length of the network we 
+2. Always route both directions, first e.g. **Wollishofen - Tiefenbrunnen**, and when made available after we finished all official routes, the route in the opposite direction: **Tiefenbrunnen - Wollishofen**. For the length of the network we 
    only consider one direction by using the official names.
 
 3. Followed the graph, but use the written description (street names) if the path in the description is safer               
