@@ -1,9 +1,61 @@
 # Photo Upload
+
+
+## Revised User Story
+
+### Upload of photos
+In the expert view, the user A uploads photos with EXIF data for a *given route* (route Wollishofen – Tiefenbrunnen). 
+(EXIF data, timestamp, lat, lon is extracted). After that a csv download of the data is available for the route. 
+
+
+### Table Routes (network_routes)
+- **route_id**
+- parent_id (only for non default routes) - to discuss: Wollishofen - Tiefenbrunnen is the parent of Tiefenbrunnen - Wollishofen. They share probably 90% of the edges.
+- **route_name** (e.g. Wollishofen - Tiefenbrunnen)
+- default (1 for default, 0 otherwise)
+- direction (I for inbound, O for outbound) 
+- **visible** (1 or 0) (= visible for users)
+
+An edge can have multiple directions.
+                       
+See also: https://github.com/posmocoop/veloplan#edges                   
+And, p.48: http://www.normes-donnees-tc.org/wp-content/uploads/2017/01/TC_278_WI_00278420_E-RS-170118-final3.pdf
+
+### Table Photos (network_route_edges_images)
+- **id**
+- **route_id** (optional)
+- **network_ogc_fid** (=edge id)
+- **image_filename** 
+- **image_url** (=original path, not imgix path)
+- **exif_datetime** (as ISO 8601, local: YYYY-MM-DDTHH:MM+01:00 = local time)
+- **exif_lat**
+- **exif_lon**
+- **pin_lat** (= lat, lon, positioned on the edge)
+- **pin_lon** 
+- **street_name**
+- **street_number** (optional)
+- **neighborhood** (optional)
+- **city**
+- **geoid** (75601120261 for Zurich, important for a multilingual site)
+- **country_code** (Alpha-2 ISO-Code)  
+- **created_at**
+- **update_at**
+- **deleted_at**
+
+**NOTE:** 
+City, country_code will be displayed as "Zürich, CH", "Berlin, DE", "Paris, FR" (not editable)                   
+Exif_datetime will be displayed as "DD.MM.YYYY, HH:MM", zeroes are stripped
+
+### Update of the database
+User B (or user A) populates the csv. Then the database is updated, either via pgadmin or via expert view. 
+
+
+
+
+## User Story 
 Automated, but verified by humans
 
-
-## User Story
-## Before using the Photo Upload Tool (PUT)
+## 1. Before using the Photo Upload Tool (PUT)
 User chooses a route of the "Velovorzugsroutennetz" (e.g. Wollishofen–Tiefenbrunnen, 7.7km) on the expert view (wrench icon) on index.velobserver.ch. 
 S/He rodes along this route by taking photos. 
 
@@ -11,7 +63,7 @@ Minimum: 6 photos per km (more is always possible)
 Single Photo size between 3-4 MB.               
 EXIF data: timestamp, lat,lon of the photo              
 
-## Using the Photo Upload Tool (PUT): Upload images
+## 2. Using the Photo Upload Tool (PUT): Upload images
 In the expert view, the user can upload one or more photos per route.        
 Timestamp, orig_lat, orig_lon are extracted from the image.          
                
@@ -49,7 +101,7 @@ city, country_code
 **In DB**: 
 - path to photo 360x240
 - path to original
-- timestamp as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 (**not** editable)
+- timestamp as ISO date/time with local offset (e.g. YYYY-MM-DDTHH:MM+01:00), displayed as DD.MM.YYYY, HH:MM, e.g. 19.1.2022, 15:20 (**not** editable)
 - lat, lon
 - pin_lat, pin_lon (**not** editable)
 - edge_id (**not** editable)
@@ -72,7 +124,8 @@ The bbox of the map is centered on the pin, the full edge is shown
 
 
 ## Tools
-- imagemagick (rokka?)
+imgix = has the advantage that the images remain with us
+- imagemagick or rokka?)
 
 
 
