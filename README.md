@@ -4,7 +4,7 @@
 Ein Bike-Index für die Strassen von Zürich und weiterer Schweizer Städte       
 Jetzt auch unterstützt vom [Prototype Fund](https://prototypefund.opendata.ch/project/velobserver/)!
 
-## Code Repo
+## Code Repo (MIT License)
 https://github.com/posmocoop/velobserver-index
 
 ## Umfrage für Tester:innen bzw. zukünftige Bewerter:innen der Velovorzugsrouten
