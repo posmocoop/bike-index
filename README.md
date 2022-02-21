@@ -7,7 +7,7 @@ Jetzt auch unterstützt vom [Prototype Fund](https://prototypefund.opendata.ch/p
 ## Code Repo (MIT License)
 https://github.com/posmocoop/velobserver-index
 
-## VelOberserver-Index Live
+## VelObserver-Index Live
 https://index.velobserver.ch
 
 ## Vorstudie zum Bike-Index, 17.5.2021
