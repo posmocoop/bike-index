@@ -251,7 +251,10 @@ We might also modify or extend the DB in the future, so it is good to use all op
 NEW: 
 1. user_id, transport_mode2 [options: fussgaenger|velo|oev|auto,motorrad], 0,1,2,3     
 (4 options, 4 values)     
-     
+0 = nie
+1 = selten
+2 = oft / regelmässig
+3 = täglich
 
     
 OLD: 
