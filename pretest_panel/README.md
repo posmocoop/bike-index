@@ -247,7 +247,14 @@ We might also modify or extend the DB in the future, so it is good to use all op
 
 
 
-### Topics          
+### Topics      
+NEW: 
+1. user_id, transport_mode2 [options: fussgaenger|velo|oev|auto,motorrad], 0,1,2,3     
+(4 options, 4 values)     
+     
+
+    
+OLD: 
 1. user_id, transport_mode [options: fussgaenger|velo|oev|miv], 0.00-1.00     
 (more than one, max. 4 options)     
      
@@ -257,6 +264,7 @@ We might also modify or extend the DB in the future, so it is good to use all op
 3. user_id, bike_usage [options: arbeit|ausbildung|alltag|freizeit|sport|touren-reisen], 1 or 0    
 (more than one option)    
       
+OLD
 4. user_id, bike_frequency [options: taeglich|regelmaessig|selten|nie], 1 or 0    
 (only one option)    
     
