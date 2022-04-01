@@ -201,6 +201,10 @@ For created_at, updated_at, we probably use UNIX timestamps.
 
 | user_id  | topic  | key  | value  | created_at | updated_at |
 |---|---|---|---|---|---|
+| XXX  | transport_mode2 | fussgaenger_freq | 3 | 2021-09-20  | |
+| XXX  | transport_mode2 | velo_freq | 2 | 2021-09-20  | |
+| XXX  | transport_mode2 | oev_freq | 1 | 2021-09-20  | |
+| XXX  | transport_mode2 | miv_freq | 0 | 2021-09-20  | |
 | XXX  | transport_mode | fussgaenger_pct | 0.40  | 2021-09-20  | |
 | XXX  | transport_mode | velo_pct | 0.25  | 2021-09-20  | |
 | XXX  | transport_mode | oev_pct | 0.35  | 2021-09-20 | |
