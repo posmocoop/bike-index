@@ -5,6 +5,22 @@ Die Idee des Pretest Panel ist es, im Voraus Menschen für die Bewertung der Vel
 Siehe: https://index.velobserver.ch
 
 
+## Final Version
+<table align="top" border="0">
+<tr>
+<td >
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_1.png" width="160"/>
+</td>
+</tr>
+<tr>
+<td ><img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_2.png" width="160"/>
+</td>
+</tr> 
+</table>     
+
+
+
+
 ## Variante 1
 
 ### Pretest Panel für die Bewertung der Velorouten
