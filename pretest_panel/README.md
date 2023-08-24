@@ -9,11 +9,11 @@ Siehe: https://index.velobserver.ch
 <table align="top" border="0">
 <tr>
 <td >
-<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_1.png" width="160"/>
+<img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/VelObserver_Umfrage_1.png" width="160"/>
 </td>
 </tr>
 <tr>
-<td ><img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/pg_2.png" width="160"/>
+<td ><img src="https://raw.githubusercontent.com/posmocoop/bike-index/main/pretest_panel/media/VelObserver_Umfrage_2" width="160"/>
 </td>
 </tr> 
 </table>     
